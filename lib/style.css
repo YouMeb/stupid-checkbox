@@ -1,0 +1,37 @@
+.stupid-checkbox {
+	zoom: 1;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.stupid-checkbox:before,
+.stupid-checkbox:after {
+	content: '';
+	display: table;
+}
+
+.stupid-checkbox:after {
+	clear: both;
+}
+
+.stupid-checkbox li {
+	display: inline-block;
+	position: relative;
+	padding: .3em .5em;
+	background: #eee;
+	margin-right: 1em;
+}
+
+.stupid-checkbox li.is-checked {
+	background: #ccc;
+}
+
+.stupid-checkbox input {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+}

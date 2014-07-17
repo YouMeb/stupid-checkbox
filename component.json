@@ -1,0 +1,10 @@
+{
+  "name": "stupid-checkbox",
+  "scripts": [
+    "lib/index.js",
+    "lib/checkbox.js"
+  ],
+  "styles": [
+    "lib/style.css"
+  ]
+}
