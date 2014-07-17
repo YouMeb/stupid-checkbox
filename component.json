@@ -6,5 +6,8 @@
   ],
   "styles": [
     "lib/style.css"
-  ]
+  ],
+  "dependencies": {
+    "component/emitter": "^1.1.3"
+  }
 }

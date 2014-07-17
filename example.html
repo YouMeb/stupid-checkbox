@@ -17,6 +17,10 @@
     我凸.add('優', 'U');
     我凸.add('哀', 'I');
 
+    我凸.on('change', function (checkbox) {
+      console.log(checkbox.value());
+    });
+
     form.appendChild(我凸.el);
   </script>
 </body>
